@@ -6,7 +6,7 @@ marked.setOptions({
 });
 
 window.Socrates = {
-    firebaseUrl : 'https://socrates.firebaseIO.com/'
+    firebaseUrl : 'https://activelabs.firebaseIO.com/'
 };
 
 
@@ -26,9 +26,9 @@ $(function () {
 // ---------
 
 var dev = window.location.hostname === 'localhost';
-window.analytics.initialize({
-    'Segment.io'       : dev ? 'r12y067n' : 'r3gxgjte',
-    'Google Analytics' : dev ? ''         : 'UA-36265018-1',
-    'Mixpanel'         : dev ? ''         : '78d583c1ec60a099cf3496506f73d29c',
-    'KISSmetrics'      : dev ? ''         : '9ce3ea2509ea5f60b82718508c77a16298e92d2a'
-});
+//window.analytics.initialize({
+//    'Segment.io'       : dev ? 'r12y067n' : 'r3gxgjte',
+//    'Google Analytics' : dev ? ''         : 'UA-36265018-1',
+//    'Mixpanel'         : dev ? ''         : '78d583c1ec60a099cf3496506f73d29c',
+//    'KISSmetrics'      : dev ? ''         : '9ce3ea2509ea5f60b82718508c77a16298e92d2a'
+//});
