@@ -13,6 +13,12 @@ To run the local server for development:
 node server.js
 ```
 
+## TODO
+
+* fix default/new creation
+* add password protection
+* add folders
+
 ## License (MIT)
 
 ```
